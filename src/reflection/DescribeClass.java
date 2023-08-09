@@ -9,7 +9,9 @@ public class DescribeClass {
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException {
         if (args.length != 1)
-            System.out.println("Usage: "); // TODO: describe how to use the utility
+            System.out.println("Usage: pass a class as the single argument of the call\n" +
+                    "to main for information on the class' name, Modifiers\n" +
+                    "Fields and Methods");
 
         else {
             Class<?> obj = Class.forName(args[0]);

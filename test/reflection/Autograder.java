@@ -12,6 +12,9 @@ public class Autograder {
     // TODO this field to mirror the class which is passed to it? Create another class
     //TODO handles reading of the student's class file?
 
+    //TODO can use @BeforeAll or is it @Beforeall? to implement a field (c)
+    // which can refer to the class thereafter you can also use @Beforeeach - which
+
     @Test
     public void testMoreThanFourFields() throws ClassNotFoundException {
         Class<?> testClass = Class.forName(CLASS_NAME);
